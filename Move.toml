@@ -1,0 +1,11 @@
+[package]
+name = 'AptosTokenICOSale'
+version = '1.0.0'
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+[addresses]
+token_ico_sale="0xe5d649d4014fb90e546c95a394ca1f2f7c2551e38e8d2aaf71b6f8b69458e6eb"
+collect_address="0xb9491af6fd26ed22e4344eaeecb0ef39947cd5fc1414f0f391562a841a863cf9"
